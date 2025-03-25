@@ -18,8 +18,8 @@ function Navbar (){
                 <Link href="/">Home</Link>
                 <Link href="/data">Sandwich Shops</Link>
             </div>
-            <div className="flex items-center">
-                <Search onSearchResults={fetchSearchResults} />
+            <div className="flex justify-between ml-auto">
+                <Search onSearchResults={fetchSearchResults} className={"pl-4"}/>
             </div>
        
         </nav>
